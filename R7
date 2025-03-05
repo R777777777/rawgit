@@ -1,0 +1,322 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "R7",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "شكرا  لاستخدامك السكربت🤠❤️",
+   LoadingSubtitle = "جار تحميل السكربت🗿!!",
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "R7 HUB"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+local Tab = Window:CreateTab("بروكهافين", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "سكربت جيون",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Jeon-26588"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت اشلي",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Snake-Hub-25887"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت S7",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-S7-hub-30753"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت DHX",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-DHX-30738"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت يوهان",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-yohan-30597"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت نسخ سكنات",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Copy-Avatar-27885"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت Lucifer",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Lucifer-30783"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت MS7",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-MS7-30596"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت LMO",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-LMO-HUB-28892"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت Ghosl",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ghosl-28390"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت طيران",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Fly-v1-27423"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت Astrox",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-AstroXhub-23818"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت M7MD",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-M7MD-HUB-27414"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت LOL",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-LOL-HUB-28538"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت wolf",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Wolf-hub-29650"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت رقصات",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AFEM-14048"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت كلشي بي",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-panel-remake-28099"))()end,
+})
+local Tab = Window:CreateTab("صملات", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "سكربت احم",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-ATOMIC-HUB-8295"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = " سكربت  فلينق1",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Fling-GUI-10927"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت فلينق2",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت فلينق3",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fling-gui-script-13229"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت فلينق4",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-fling-gui-13313"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت فلينق5",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fling-GUI-9899"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت فلينق6",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fling-gui-19581"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "1سكربت AFK",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AntiAFK-script-18076"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "2سكربت AFK",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-RICE-ANTI-AFK-22320"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "3سكربت AFK",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-afk-lol-28917"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "4سكربت AFK",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-RBX-Anti-Afk-script-23931"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت ادمن ",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت فلينق7",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-k00nkidd-fling-gui-27395"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت فلينق8",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-kawaiI-fling-29175"))()end,
+})
+local Tab = Window:CreateTab("بلوكس فروت", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "سكربت فارم",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Blox-Fruits-OP-SCRIPT-WITH-AUTOFARM-23429"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت ريدز",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Blox-Fruits-Fanmade-RedzHub-29923"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت ميراج",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/DRAGON-Blox-Fruits-BLACKTRAP-UPDATE-24570"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت قوي",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Blox-Fruits-Flow-fruit-26743"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت تلفيل",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Blox-Fruits-COMPELTE-REWORKED-V2-Update-24-Auto-Level-Auto-Raid-Auto-V4-30039"))()end,
+})
+local Tab = Window:CreateTab("Fisch", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "Forge",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Fisch-Forge-Hub-30632"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "ATLANTIS",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Fisch-ATLANTIS-nebora-MONEY-GIVER-27770"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "FEMSENSE",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Fisch-Femsense-AFK-Farm-29780"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "Lunor",
+   Callback = function()
+   -- The function that takes place when the button is pressedloadstring(game:HttpGet("https://rawscripts.net/raw/Fisch-Lunor-Fisch-30609"))()
+   end,
+})
+local Tab = Window:CreateTab("بليد بال", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "سكربت سبام قوي ",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Blade-Ball-GUI-Auto-Parry-Auto-Vote-More-Features-Soon-8253"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت اسطوري",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Blade-Ball-Opensource-autoparry-8123"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت قوي",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Blade-Ball-X7-PARRY-Alpha-9356"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت سبام",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Blade-Ball-Very-Op-Auto-Parry-NEVER-FAILS-9325"))()end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت AutoParry",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/XMAS-Blade-Ball-OPEN-SOURCE-Simple-Proximity-Auto-Parry-25405"))()end,
+})
+local Tab = Window:CreateTab("الحقوق", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "حسابي روب lraq_96468",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "انتظرو التحديثات القادمة",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
